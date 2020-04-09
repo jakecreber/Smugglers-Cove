@@ -1,0 +1,335 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+	background: #f4f4f4;
+}
+
+/*Utilities*/
+
+.l-header {
+	font-size: 3rem;
+	padding: 1rem;
+	line-height: 1.1;
+}
+
+.m-heading {
+	font-size: 2rem;
+	text-align: center;
+	color: #B7860B;
+	text-decoration: underline;
+	text-shadow: .5px .5px black;
+
+}
+
+
+.bg-primary {
+	background: rgb(155, 118, 23);
+	color: #fff;
+}
+
+
+/* Navbar */
+
+#navbar {
+	height: 95px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	justify-content: space-between;
+	flex: 1;
+	background: #B7860B;
+	color: #fff;
+	z-index: 1;
+	/* padding: .5rem; */
+	opacity: 0.9;
+}
+#navbar ul {
+	display: flex;
+	align-items: center;
+
+	
+}
+
+
+#navbar ul li a{
+	font-size: 1.2rem;
+	color:#fff;
+	padding: 1.5rem 1rem;
+	margin: 1rem 0.1rem;	
+	border-radius: 5px;
+}
+
+#navbar ul li a:hover{
+	background: #9B7617;
+	cursor: pointer;
+}
+
+#navbar img{
+	height: 90px;
+	width: 90px;
+}
+
+#navbar .logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	margin-bottom: -2rem;
+	border: #fff 1px outset ;
+	border-radius: 5px;
+	background: #B7860B ;
+}
+
+#navbar h1{
+	font-size: 2rem;
+	padding-left: 1rem;
+	color: #fff;
+}
+
+/*Showcase*/
+
+#showcase {
+	background: #333333 url('./img/winery-1.jpg') no-repeat center center/cover;
+	color: #fff;
+	height: 100vh;
+}
+
+#showcase .showcase-content {
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	height: 100%;  /*This is 100% of it container*/
+	padding: 1rem;
+	position: absolute;
+	top: 95px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0, 0.4);
+}
+
+
+#showcase .showcase-content a{
+	margin-top: 1rem;
+	color: #fff;
+	background: #B7860B;
+	border-radius: 5px;
+	padding: .5rem;
+}
+
+#showcase .showcase-content a:hover{
+	font-size: 1rem;
+	color: #fff;
+	background: #9B7617;
+	border-radius: 5px;
+	padding: .5rem;
+}
+
+/* Our wines */
+#our-wines{
+	background: #f4f4f4;
+}
+
+#our-wines .red-wine-1{
+	display: flex;
+	flex: 1;
+	height: 60vh;
+	border-top: #333333 solid 1px;
+	border-bottom: #333333 solid 1px;
+	background: #f4f4f4;
+	overflow: hidden;
+	
+}
+
+#our-wines .red-wine-2{
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+	height: 60vh;
+	background:#B7860B;
+	border-bottom: #333333 solid 1px;
+	overflow: hidden;
+	color: #f4f4f4;
+}
+#our-wines .red-wine-2 h3{
+	text-shadow: 1px 1px black;
+	color: #f4f4f4;
+}
+
+#our-wines .white-wine-1{
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+	height: 60vh;
+	border-bottom: #333333 solid 1px;
+	background: #f4f4f4;
+	overflow: hidden;
+}
+
+#our-wines .white-wine-2{
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+	height: 60vh;
+	border-bottom: #333333 solid 1px;
+	background: #B7860B;
+	overflow: hidden;
+	color: #f4f4f4;
+}
+
+#our-wines .white-wine-2 h3{
+	text-shadow: 1px 1px black;
+	color: #f4f4f4;
+}
+
+#our-wines .wine-des {
+	text-align: center;
+	margin: 2rem;
+	font-size:1.25rem ;
+}
+#our-wines .wines .wine-info {
+	flex: 2;
+	padding: 3rem 4rem;
+	margin: 2rem 4rem;
+}
+
+#our-wines .red-wine-1 img{
+	display: block;
+	max-width: 33.3%;
+	height: auto;
+}
+
+#our-wines .red-wine-2 img{
+	display: block;
+	max-width: 33.3%;
+	height: auto;
+}
+#our-wines .white-wine-1 img{
+	display: block;
+	max-width: 33.3%;
+	height: auto;
+}
+#our-wines .white-wine-2 img{
+	display: block;
+	max-width: 33.3%;
+	height: auto;
+}
+
+/* who */
+
+
+#who .container{
+	display: flex;
+	height: 70vh;
+	flex: 1;
+	background: #f4f4f4;
+	text-align: center;
+	font-size: 1.24rem;
+	overflow: hidden;
+}
+
+#who .container img{
+	display: block;
+	min-width: 50%;
+	height: auto;
+}
+
+#who .container .info {
+	padding: 3rem 2rem;
+	margin: 2rem;
+}
+
+#who .container p {
+	padding: 2rem;
+}
+
+/* Contact */
+
+#contact{
+	display: flex;
+	height: 60vh;
+}
+#contact h2 {
+	color: #f4f4f4;
+	
+}
+
+
+#contact .map,
+#contact .contact-form{
+	flex: 1;
+	flex-basis: 50%;
+}
+
+#contact .contact-form {
+	max-width: 35%;
+	height: auto;
+}
+
+#contact p{
+	text-align: center;
+	padding-top: 0.5rem;
+}
+
+
+#contact .contact-form .form-group {
+	margin: 0.75rem;
+	padding: .25rem;
+}
+
+#contact .contact-form .form-group label {
+	display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+	width: 100%;
+	padding: 0.5rem;
+}
+
+ #contact .contact-form .btn {
+	display: inline-block;
+	padding: 0.5rem 2rem;
+	border: none;
+	border-radius: 5px;
+	width: 93%;
+	margin-left: 1rem ;
+	margin-right: 1rem ; 
+}
+
+
+#contact .contact-form .btn:hover{
+	cursor: pointer;
+	background: #B7860B;
+	color: #f4f4f4;
+}
+
+
+/* footer */
+#main-footer .container{
+	font-size: 0.75rem;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Smugglers cover | Winery Spain</title>
+</head>
+
+<body id="home">
+
+	<!-- Navbar -->
+	<nav id="navbar">
+		<div class="logo">
+			<img src="./img/smuggler logo.png" alt="smuggler">
+			<h1>Smugglers Cove</h1>
+		</div>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#our-wines">Our Wines</a></li>
+			<li><a href="#who">Who</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- Header: Showcsae -->
+
+	<header id="showcase">
+		<div class="showcase-content">
+			<h1 class="l-header">
+				The Best Cantabria Has To Offer
+			</h1>
+			<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nulla aliquam magnam rem quasi
+				asperiores.</p>
+			<a href="#our-wines">Our Wines</a>
+		</div>
+	</header>
+
+
+	<!--OUR WINES  -->
+
+	<section id="our-wines">
+		<div class="wines">
+			<!-- <h2 class="m-heading">Our Wines -->
+			</h2>
+			<div class="red-wine">
+				<div class="red-wine-1">
+					<img src="./img/pinot.jpg" alt="pinot-noir">
+					<div class="wine-info">
+						<h3 class="m-heading">
+							Pinot Noir
+						</h3>
+						<p class="wine-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias amet
+							voluptate odit reprehenderit. Aliquam perferendis eius nobis vero, magni eum pariatur
+							provident soluta rem repudiandae, repellat nemo tenetur enim fuga? Vel, earum impedit. Odio
+							dicta obcaecati fugit quas nesciunt culpa ad illo odit quos?</p>
+					</div>
+				</div>
+				<div class="red-wine-2">
+					<div class="wine-info">
+						<h3 class="m-heading">Tempranillo
+						</h3>
+						<p class="wine-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic
+							autem consectetur perferendis qui, optio ab quibusdam, veniam quos corrupti tempore nihil
+							laborum aliquid assumenda a dolorum obcaecati dolores odio. Doloribus a, quaerat minima eum
+							expedita molestias atque ducimus nulla impedit rem veniam dolore dignissimos!</p>
+					</div>
+					<img src="./img/Rioja.jpg" alt="rioja">
+				</div>
+			</div>
+			<div class="white-wine">
+				<div class="white-wine-1">
+					<img src="./img/pinot-grigio.jpg" alt="pinot-grigio">
+					<div class="wine-info">
+						<h3 class="m-heading">
+							Pinot Grigio
+						</h3>
+						<p class="wine-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem iusto aliquam
+							quam debitis delectus unde maiores quibusdam officia quas et impedit placeat maxime quaerat
+							ipsa aut enim reprehenderit itaque at minus, atque ab dolores quisquam exercitationem!
+							Dolore beatae incidunt nobis inventore ex, cumque voluptatem voluptatibus?</p>
+					</div>
+				</div>
+				<div class="white-wine-2">
+					<div class="wine-info">
+						<h3 class="m-heading">
+							Sauvignon Blanc
+						</h3>
+						<p class="wine-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sint ab sed
+							cumque eligendi perspiciatis ea cupiditate, ex tempora natus odit? Architecto, mollitia
+							animi natus adipisci molestias, reiciendis aperiam non totam laborum ullam corporis debitis
+							corrupti dicta? Maxime pariatur aliquam qui deserunt exercitationem. Deleniti, dolorum.</p>
+					</div>
+					<img src="./img/sauv-blanc.jpg" alt="sauv-blanc">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Who -->
+
+	<section id="who">
+		<div class="container">
+			<img src="./img/family.jpg" alt="family">
+			<div class="info">
+				<h3 class="m-heading">Who We Are</h3>
+				<p class="wine-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eius vero cum?
+					Inventore illo
+					voluptates eos? Iste perferendis doloribus hic facilis. Quo a veritatis quia reprehenderit dolorem
+					voluptas nostrum, non iusto magnam optio in iste voluptatibus necessitatibus ipsum possimus tempora
+					corporis. Perspiciatis harum possimus sed expedita a accusamus placeat? Vel.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="map"></div>
+		<div class="contact-form bg-primary">
+			<h2 class="m-heading">Contact Us</h2>
+			<p>Please use the form below to contact us </p>
+			<form action="process.php" method="POST">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" placeholder="Enter Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" placeholder="Enter Email">
+				</div>
+				<div class="form-group">
+					<label for="phone">Phone Number</label>
+					<input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" placeholder="Enter Message"></textarea>
+				</div>
+				<input type="submit" value="Send" class="btn">
+			</form>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="main-footer" class="bg-primary">
+		<div class="container">
+			<!--Put it in a container so it stays in the middle-->
+			<p>Copyright &copy; 2019, Smugglers Cover,All Rights Reserved</p>
+		</div>
+	</footer>
+</body>
+
+<!-- JQuery CDN - important to put it above local js file as we're using it inside the local JS file -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<!-- Local Js File -->
+<script src="./main.js"></script>
+
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD86Fh0JMoQ61jPau1368iJnGjyUIayeV0&callback=initMap" async
+	defer></script>
+
+
+
+</html>
